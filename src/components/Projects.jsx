@@ -27,25 +27,33 @@ function Projects() {
             slidesToShow: 1,
           },
         },
+        
       ],
   };
 
   const projectData = [
     {
-      img: "/pool.jpg",
-      desc: "Year of experience in both front-end and back-end development. Successfully completed an internship contributing to impactful projects. Passionate about building seamless user experiences.",
-      lang: "PHP | Codeigniter",
+      img: "/sunset.png",
+      desc: "A modern, responsive website, Sunset Breez was designed to showcase resort services and captivate visitors with an inviting online presence.",
+      lang: "React | Tailwind CSS | Vite",
     },
     {
-      img: "/pool.jpg",
-      desc: "Developed responsive web appl Proficient in creating reusable UI components.",
-      lang: "React | NextJs",
+      img: "/medi.png",
+      desc: "The Medicare website delivers a simple, user-friendly platform for a healthcare service provider, focused on clear information and easy navigation.",
+      lang: "React | NextJs | Tailwind CSS",
     },
     {
-      img: "/dining.jpg",
-      desc: "Experienced in back-end technologies like PHP and CodeIgniter, building secure and scalable server-side applications. Collaborated closely with UI/UX teams to enhance user interaction.",
-      lang: "PHP | Codeigniter",
+      img: "/venro.png",
+      desc: "Venro Inventory Management System is an efficient solution for managing, tracking, and organizing product inventory within businesses.Including Admin dashboard",
+      lang: "HTML| CSS | PHP | Javascript",
     },
+
+     {
+      img: "/shop.png",
+      desc: "Venro Inventory Management System is an efficient solution for managing, tracking, and organizing product inventory within businesses.Including Admin dashboard",
+      lang: "HTML| CSS | PHP | Javascript",
+    },
+    
   ];
 
   return (

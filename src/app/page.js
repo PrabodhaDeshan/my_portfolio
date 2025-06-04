@@ -88,16 +88,17 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="sm-range:justify-center sm-range:flex ">
-              <div className=" sm-range:w-[80%] lg:w-[80%] lg:h-96 h-72 lg:ml-14 relative block lg:right-2 bg-gradient-to-t from-lightgrey to-white shadow-2xl dark:from-[#331958]  dark:to-[#111827] lg:top-10">
+            <div className="sm-range:justify-center sm-range:flex animate-fade-in-up ">
+              <div className=" sm-range:w-[80%] lg:w-[80%] lg:h-[370px] h-72 lg:ml-14 relative block lg:right-2 shadow-outside bg-gradient-to-t from-lightgrey to-white shadow-4xl dark:from-[#331958]  dark:to-[#111827] lg:top-30 lg:pb-0 ">
                 <div className="flex items-center justify-center h-full lg:justify-start">
                   <Image
-                    src="/hero.webp"
+                    src="/me.png"
                     alt="Profile"
                     width={450}
-                    height={450}
-                    className="relative object-cover im rounded-xl bottom-14 lg:bottom-20 w-[300px]  sm-range:bottom-3  h-[300px] lg:w-[450px] lg:h-[450px]"
+                    height={550}
+                    className="relative object-cover  bottom-14 lg:top-1  w-[300px]  sm-range:bottom-14  h-[400px] lg:w-[450px] lg:h-[420px]"
                   />
+                  
                 </div>
               </div>
             </div>

@@ -23,9 +23,7 @@ function What_i_do() {
                          Custom Websites
                         </h3> <br/>
                         <p>
-                        year of experience in both front-end and back-end development.
-                    Successfully completed an internship contributing to impactful
-                    projects. Passionate about building seamless user experiences
+                       Custom websites built to reflect each brand’s identity and unique requirements. Every project is crafted with a focus on responsive design, seamless performance, and a captivating user experience
                  
                         </p>
                       </div>
@@ -44,9 +42,7 @@ function What_i_do() {
                           UI/UX Design
                         </h3><br/>
                         <p>
-                        year of experience in both front-end and back-end development.
-                    Successfully completed an internship contributing to impactful
-                    projects. Passionate about building seamless user experiences
+                       Intuitive, visually appealing, and user-centered interfaces designed to enhance usability and engagement. Each layout and interaction is thoughtfully planned to deliver a smooth, meaningful experience.
                 
                         </p>
                       </div>
@@ -65,9 +61,7 @@ function What_i_do() {
                           Web Application
                         </h3><br/>
                         <p>
-                        year of experience in both front-end and back-end development.
-                    Successfully completed an internship contributing to impactful
-                    projects. Passionate about building seamless user experiences
+                        Dynamic and scalable web applications developed to meet specific business needs. From interactive dashboards to custom tools, every solution is optimized for performance, functionality, and reliability.
                   
                         </p>
                       </div>

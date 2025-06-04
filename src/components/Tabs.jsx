@@ -14,7 +14,7 @@ const Tabs = () => {
           className={`py-2 shadow-lg px-4 rounded-md text-sm font-medium ${
             activeTab === "tab1"
               ? "border-b-2 bg-gradient-to-r from-[#573BD6] to-purple-500 text-white"
-              : "text-gray-600  "
+              : "text-[#573BD6]  "
           }`}
           onClick={() => setActiveTab("tab1")}
         >
@@ -24,7 +24,7 @@ const Tabs = () => {
           className={`py-2 rounded-md shadow-lg px-4 text-sm font-medium ${
             activeTab === "tab2"
               ? "border-b-2 bg-gradient-to-r from-[#573BD6] to-purple-500 text-white"
-              : "text-gray-600"
+              : "text-[#573BD6] "
           }`}
           onClick={() => setActiveTab("tab2")}
         >
@@ -34,7 +34,7 @@ const Tabs = () => {
           className={`py-2 rounded-md shadow-lg px-4 text-sm font-medium ${
             activeTab === "tab3"
               ? "border-b-2 bg-gradient-to-r from-[#573BD6] to-purple-500   text-white"
-              : "text-gray-600"
+              : "text-[#573BD6] "
           }`}
           onClick={() => setActiveTab("tab3")}
         >
@@ -116,7 +116,7 @@ const Tabs = () => {
                   {/* <div className="absolute w-2 h-2 bg-purple-600 rounded-full -left-7 top-2"></div> */}
 
                   {/* Content */}
-                  <h3 className="font-semibold ">London metro</h3>
+                  <h3 className="font-semibold ">BEng (Hons) in Software Engineering - London Metropolitan University</h3>
                   <p className="mt-2 text-[15px]  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
                     In hac habitasse platea dictumst. Pellentesque habitant
                     morbi tristique senectus et netus et malesuada fames ac
@@ -124,14 +124,7 @@ const Tabs = () => {
                     suscipit.senectus et netus et malesuada fames ac turpis
                     egestas. Nam eu nunc non augue tincidunt suscipit.
                   </p>
-                  <p className="mt-2 text-[15px]  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt
-                    suscipit.senectus et netus et malesuada fames ac turpis
-                    egestas. Nam eu nunc non augue tincidunt suscipit.senectus
-                    et netus et malesuada fames ac tsuscipit.senectus et netus
-                  </p>
+                 
                 </div>
 
                 {/* Timeline Item */}
@@ -139,28 +132,14 @@ const Tabs = () => {
                   {/* <div className="absolute w-2 h-2 bg-purple-600 rounded-full -left-7 top-2"></div> */}
 
                   <h3 className="font-semibold ">
-                    Junior Front-end Developer
+                  Pearson BTec Higher National Diploma in Computing - Esof t Metro Campus Kandy
                   </h3>
                   <p className="mt-2 text-sm  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
                     In hac habitasse platea dictumst. Pellentesque habitant
                     morbi tristique senectus et netus et malesuada fames ac
                     turpis egestas. Nam eu nunc non augue tincidunt suscipit.
                   </p>
-                  <p className="mt-2 text-sm relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt suscipit.
-                  </p>
-                  <p className="mt-2 text-sm  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt suscipit.
-                  </p>
-                  <p className="mt-2 text-sm relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt suscipit.
-                  </p>
+                 
                 </div>
               </div>
             </div>

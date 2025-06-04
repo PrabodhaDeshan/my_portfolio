@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { useTheme } from 'next-themes';
+import Image from "next/image";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +18,24 @@ function Navbar() {
 
   return (
     <div className="relative z-50 flex items-center justify-between w-full h-16 px-6 bg-white shadow-md dark:bg-[#111827]">
-      <div className="text-xl font-semibold text-black dark:text-white">Prabodha</div>
+     
+      <div className="flex items-center justify-center text-xl font-semibold text-black dark:text-white"> <div className="w-16 h-16 " >
+       
+  <div className="w-12 h-12 rounded-full p-[2px] bg-gradient-to-tr from-[#573BD6] to-purple-500 relative top-2 ">
+    <div className="w-full h-full bg-white rounded-full dark:bg-[#111827]">
+      <Image
+        src="/icon.png"
+        alt="Profile"
+        width={100}
+        height={100}
+        className="object-cover rounded-full"
+      />
+    </div>
+  </div>
+  
 
+        </div>Prabodha</div>
+ 
       {/* Desktop Menu */}
       <div className="items-center hidden space-x-6 md:flex">
         <ul className="flex gap-6 text-base text-black dark:text-white">

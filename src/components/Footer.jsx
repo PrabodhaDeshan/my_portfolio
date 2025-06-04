@@ -8,9 +8,18 @@ function Footer() {
   return (
     <div className='flex items-center justify-center w-full bg-white  dark:bg-[#111827] '>
       <div className="grid w-full lg:gap-5 sm-range:gap-5 lg:grid-cols-3 sm-range:grid-cols-2 ">
-      <div className=" flex justify-center p-8 bg-white  dark:bg-[#111827] ">
-       <h3>Prabodha Deshan</h3>
-    </div>
+
+         <div className="flex flex-col justify-center items-center text-center p-8 bg-white dark:bg-[#111827]">
+ <h2 className="mb-2 text-xl font-bold text-transparent bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text">
+  Let's Talk
+</h2>
+
+  <h3 className="max-w-xl">
+    I'm always open to new opportunities, collaborations, or just a friendly tech chat.
+    Let's build something great together — reach out me any time!
+  </h3>
+</div>
+      
     <div className="flex justify-center p-8 bg-white  dark:bg-[#111827]">
       <ul className='space-y-3'>
         <li className='font-bold' >Links</li>

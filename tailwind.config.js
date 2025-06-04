@@ -29,6 +29,9 @@ module.exports = {
           "100%": { opacity: 1, transform: "translateY(0)" },
         },
       },
+       boxShadow: {
+       'outside': '0 40px 80px rgba(0, 0, 0, 0.6)', // Stronger and shifted further down
+    },
 
       animation: {
         "fade-in-up": "fade-in-up 1s ease-out forwards",
