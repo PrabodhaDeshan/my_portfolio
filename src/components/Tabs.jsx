@@ -55,23 +55,12 @@ const Tabs = () => {
 
                   {/* Content */}
                   <h3 className="font-semibold ">
-                    Junior Front-end Developer
+                    Intern Front-end Developer
                   </h3>
                   <p className="mt-2 text-[15px]   relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt
-                    suscipit.senectus et netus et malesuada fames ac turpis
-                    egestas. Nam eu nunc non augue tincidunt suscipit.
+                   Assisted in designing and developing responsive user interfaces using HTML, CSS, and JavaScript. Gained hands-on experience with React.js and collaborated on small projects using PHP and CodeIgniter. Participated in debugging, code reviews, and improving UI performance in real-world environments.
                   </p>
-                  <p className="mt-2 text-[15px]  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt
-                    suscipit.senectus et netus et malesuada fames ac turpis
-                    egestas. Nam eu nunc non augue tincidunt suscipit.senectus
-                    et netus et malesuada fames ac tsuscipit.senectus et netus
-                  </p>
+                 
                 </div>
 
                 {/* Timeline Item */}
@@ -82,25 +71,9 @@ const Tabs = () => {
                     Junior Front-end Developer
                   </h3>
                   <p className="mt-2 text-sm  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt suscipit.
+                   Worked on multiple real-world web projects, contributing to both front-end and back-end development. Built modern, responsive interfaces using React.js, Next.js, and Tailwind CSS. Also involved in backend functionality using PHP and CodeIgniter, including database management with MySQL and API integration. Played a key role in developing e-commerce platforms, business websites, and admin dashboards. Collaborated with cross-functional teams to ensure performance, usability, and scalability across various client applications.
                   </p>
-                  <p className="mt-2 text-sm  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt suscipit.
-                  </p>
-                  <p className="mt-2 text-sm relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt suscipit.
-                  </p>
-                  <p className="mt-2 text-sm relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt suscipit.
-                  </p>
+                 
                 </div>
               </div>
             </div>
@@ -111,6 +84,19 @@ const Tabs = () => {
             <div className="text-gray-700 dark:text-white">
               <div className="relative pl-6 border-purple-400 border-2-2">
                 {/* Timeline Item */}
+
+                   {/* Timeline Item */}
+                <div className="relative mb-8">
+                  {/* <div className="absolute w-2 h-2 bg-purple-600 rounded-full -left-7 top-2"></div> */}
+
+                  <h3 className="font-semibold ">
+                  Pearson BTec Higher National Diploma in Computing - Esoft Metro Campus Kandy
+                  </h3>
+                  <p className="mt-2 text-sm  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
+                   Built a strong foundation in computing fundamentals including programming, web development, database systems, and networking. Gained hands-on experience in PHP,JavaScrip MySQL, and user interface design. Completed multiple project-based modules that improved teamwork, client communication, and real-world application development skills.
+                  </p>
+                 
+                </div>
                 <div className="relative mb-8">
                   {/* Timeline Bullet */}
                   {/* <div className="absolute w-2 h-2 bg-purple-600 rounded-full -left-7 top-2"></div> */}
@@ -118,29 +104,12 @@ const Tabs = () => {
                   {/* Content */}
                   <h3 className="font-semibold ">BEng (Hons) in Software Engineering - London Metropolitan University</h3>
                   <p className="mt-2 text-[15px]  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt
-                    suscipit.senectus et netus et malesuada fames ac turpis
-                    egestas. Nam eu nunc non augue tincidunt suscipit.
+                    Gained in-depth knowledge of software design, system architecture, and full-stack development. Strengthened skills in JavaScript, React.js, Next.js, Node.js, and database management. Developed several academic and real-world projects, improving proficiency in problem-solving, clean code practices, and collaborative development
                   </p>
                  
                 </div>
 
-                {/* Timeline Item */}
-                <div className="relative mb-8">
-                  {/* <div className="absolute w-2 h-2 bg-purple-600 rounded-full -left-7 top-2"></div> */}
-
-                  <h3 className="font-semibold ">
-                  Pearson BTec Higher National Diploma in Computing - Esof t Metro Campus Kandy
-                  </h3>
-                  <p className="mt-2 text-sm  relative before:content-['•'] before:text-purple-600 before:mr-2 before:inline-block">
-                    In hac habitasse platea dictumst. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Nam eu nunc non augue tincidunt suscipit.
-                  </p>
-                 
-                </div>
+             
               </div>
             </div>
           </Tab>
