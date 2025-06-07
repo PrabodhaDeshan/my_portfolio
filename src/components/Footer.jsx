@@ -14,10 +14,10 @@ function Footer() {
   Let's Talk
 </h2>
 
-  <h3 className="max-w-xl">
-    I'm always open to new opportunities, collaborations, or just a friendly tech chat.
-    Let's build something great together — reach out me any time!
-  </h3>
+ <h3 className="max-w-xl">
+  I&apos;m always open to new opportunities, collaborations, or just a friendly tech chat.
+  Let&apos;s build something great together — reach out to me any time!
+</h3>
 </div>
       
     <div className="flex justify-center p-8 bg-white  dark:bg-[#111827]">
