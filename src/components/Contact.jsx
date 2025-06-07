@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -15,11 +16,34 @@ export default function ContactForm() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-    // You can add sending logic here
-  };
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  emailjs
+    .send(
+      'service_i3g21ps',    // from EmailJS dashboard
+      'template_cg52b8q',   // from EmailJS dashboard
+      formData,
+      'EHmqboEb0j3d-hVw6'     // EmailJS public key
+    )
+    .then(
+      (result) => {
+        alert("Message sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          contact: "",
+          subject: "",
+          message: "",
+        });
+      },
+      (error) => {
+        console.error(error.text);
+        alert("Failed to send message.");
+      }
+    );
+};
+
 
   return (
     <section className="flex items-center justify-center min-h-screen px-4 bg-gradient-to-r from-lightgrey via-white to-white dark:from-[#331958]  dark:to-[#111827]">
