@@ -10,11 +10,9 @@ function Footer() {
       <div className="grid w-full lg:gap-5 sm-range:gap-5 lg:grid-cols-3 sm-range:grid-cols-2 ">
 
          <div className="flex flex-col justify-center items-center text-center p-8 bg-white dark:bg-[#111827]">
- <h2 className="mb-2 text-xl font-bold text-transparent bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text">
-  Let's Talk
-</h2>
+<h2 className="text-xl font-bold">Let&apos;s Talk</h2>
 
- <h3 className="max-w-xl">
+<h3 className="max-w-xl">
   I&apos;m always open to new opportunities, collaborations, or just a friendly tech chat.
   Let&apos;s build something great together — reach out to me any time!
 </h3>
