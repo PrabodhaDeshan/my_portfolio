@@ -1,4 +1,4 @@
-"use client"; // if you're using Next.js 13/14 App Router
+"use client"; 
 
 import Image from "next/image";
 import React from "react";
@@ -50,8 +50,8 @@ function Projects() {
 
      {
       img: "/shop.png",
-      desc: "Venro Inventory Management System is an efficient solution for managing, tracking, and organizing product inventory within businesses.Including Admin dashboard",
-      lang: "HTML| CSS | PHP | Javascript",
+      desc: "Designed a shopping cart application with user registration, login, cart operations, and order placement, supporting session handling and cookie-based cart storage for a seamless user experience.",
+      lang: "React| NextJs | Tailwind CSS ",
     },
     
   ];

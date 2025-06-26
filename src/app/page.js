@@ -38,7 +38,7 @@ export default function Home() {
                 <span>
                   <Typewriter
                     words={[
-                      "Hello, welcome to my website. I'm passionate about technology and design!",
+                      "Welcome to my website. I'm passionate about technology and design!",
                     ]}
                     loop={1}
                     cursor
